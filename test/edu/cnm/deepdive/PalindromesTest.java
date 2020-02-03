@@ -34,6 +34,5 @@ class PalindromesTest {
       for (String testCase : negativeTestData) {
       assertFalse(Palindromes.isPalindrome(testCase));
     }
-
   }
 }
